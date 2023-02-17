@@ -194,3 +194,12 @@ form img {
   width: 30px;
   height: 30px;
 }
+@media(max-width: 781px) {
+  #app {
+    height: 100vh;
+    width: 100vw;
+  }
+  #errors {
+    transform: translateY(600%);
+  }
+}
